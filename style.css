@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {}
+
+.imgtela {
+    position: absolute;
+    display: flex;
+    width: 50%;
+    height: 90%;
+    left: 50%;
+    right: 50%;
+    background-color: aqua;
+}
+
+.texto {
+    position: relative;
+    display: flex;
+    margin-top: 100px;
+    width: 800px;
+    height: 600px;
+}
+
+.texto p {
+    font-family: 'Great Vibes', cursive;
+    margin: 10%;
+    font-size: 120px;
+    position: absolute;
+    text-align: center;
+    color: rgb(3, 3, 3);
+}
+
+.menu {
+    background-image: linear-gradient(to bottom, green, purple, red, yellow);
+    /* background: black;*/
+    width: 100%;
+    height: 40px;
+}
+
+.menu ul {
+    display: flex;
+}
+
+.menu ul li {
+    align-items: center;
+    padding: 10px;
+    height: 20px;
+    list-style: none;
+    margin-left: 30px;
+}
+
+.menu ul li:hover {
+    background: rgb(129, 129, 122);
+}
+
+.menu ul li a {
+    text-decoration: none;
+    font-size: 15pt;
+    color: aliceblue;
+}
+
+.rodape {
+    padding: 5px;
+    position: absolute;
+    background: black;
+    width: 100%;
+    height: 40px;
+}
+
+.rodape p {
+    text-align: center;
+    position: relative;
+    top: 6px;
+    text-align: center;
+    color: aliceblue;
+}
